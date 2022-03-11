@@ -11,9 +11,15 @@
         }
     }
 
+    &__newsletter {
+        margin-bottom: 1.25rem;
+    }
+
     .newsletter-form {
         width: 60%;
-        padding: 0.9375rem 0.625rem;
+        background-color: $secondaryColor;
+        color: $white;
+        padding: 0.9375rem;
         border: none;
         border-radius: .3125rem 0 0 .3125rem;
         font-size: 1rem;
@@ -22,8 +28,51 @@
     .newsletter-form:focus {
         outline: none;
     }
+    .newsletter-form::placeholder {
+        color: $textPlaceholder;
+    }
 
     .newsletter-btn {
         border-radius: 0 .3125rem .3125rem 0;
     }
+
+    &__visitor {
+        color: $white;
+        gap: .625rem;
+    }
+
+    &__visitor img {
+        width: 25%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
+    .hero {
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+
+        &__image {
+            img {
+                width: 70%;
+            }
+        }
+
+        &__newsletter {
+            justify-content: center;
+        }
+    
+        &__visitor {
+            flex-direction: column;
+        }
+    }
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 43rem) {
+
 }

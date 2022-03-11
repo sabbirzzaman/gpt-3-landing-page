@@ -25,3 +25,20 @@
     border-radius: .3125rem;
     cursor: pointer;
 }
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
+    .container {
+        max-width: 45.5rem;
+        padding: 3.125rem 0;
+    }
+
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 43rem) {
+    .container {
+        max-width: 20rem;
+        padding: 1.875rem 0;
+    }
+}
