@@ -1,0 +1,17 @@
+.brand {
+    &__container {
+        max-width: 41.875rem;
+        padding-top: 0;
+        gap: 2.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
+    .brand {
+        &__container {
+            max-width: 37.5rem;
+            gap: 1.5625rem;
+        }
+    }
+}
