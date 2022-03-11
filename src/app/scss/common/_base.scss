@@ -22,4 +22,19 @@ body {
     a {
         color: $white;
     }
+
+    h1,
+    h2,
+    h3 {
+        background: $gradientColor;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3.25rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
 }

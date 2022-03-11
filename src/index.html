@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Site title -->
-    <title>GPT-3</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Site title -->
+        <title>GPT-3</title>
 
-    <!-- Link CSS Stylesheet -->
-    <link rel="stylesheet" href="./app/scss/style.scss">
+        <!-- Link CSS Stylesheet -->
+        <link rel="stylesheet" href="./app/scss/style.scss" />
 
-    <!-- Link js file -->
-    <script type="module" src="./app/js/app.js"></script>
-</head>
-<body>
-    <!-- Header area start -->
-    <header class="header">
-        <div class="header__container container d-flex jc-sb align-c">
-            <div class="header__nav d-flex align-c">
-                <div class="site-logo d-flex">
-                    <a href="#"><img src="./images/logo.svg" alt="Site logo"></a>
+        <!-- Link js file -->
+        <script type="module" src="./app/js/app.js"></script>
+    </head>
+
+    <body>
+        <!-- Header area start -->
+        <header class="header">
+            <div class="header__container container d-flex jc-sb align-c">
+                <div class="header__nav d-flex align-c">
+                    <div class="site-logo d-flex">
+                        <a href="#"
+                            ><img src="./images/logo.svg" alt="Site logo"
+                        /></a>
+                    </div>
+                    <div class="header__navbar">
+                        <ul class="d-flex">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">What is GPT?</a></li>
+                            <li><a href="#">Open AI</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Library</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="header__navbar">
-                    <ul class="d-flex">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">What is GPT?</a></li>
-                        <li><a href="#">Open AI</a></li>
-                        <li><a href="#">Case Studies</a></li>
-                        <li><a href="#">Library</a></li>
-                    </ul>
+                <div class="header__btn d-flex align-c">
+                    <a href="#">Sign In</a>
+                    <button class="button">Sign Up</button>
                 </div>
             </div>
-            <div class="header__btn d-flex align-c">
-                <a href="#">Sign In</a>
-                <button class="button">Sign Up</button>
-            </div>
-        </div>
-    </header>
-</body>
+        </header>
+        <!-- Header area end -->
+
+        <main>
+            <!-- Hero area start -->
+            <section class="hero">
+                <div class="container hero__container align-c">
+                    <div class="hero__content">
+                        <h1>Let's Build Something Amazing With GPT-3 OpenAI</h1>
+                        <p>
+                            Yet bed any for travelling assistance indulgence
+                            unpleasing. Not thoughts all exercise blessing.
+                            Indulgence way everything joy alteration boisterous
+                            the attachment. Party we years to order allow asked
+                            of.
+                        </p>
+                        <div class="hero__newsletter d-flex align-c">
+                            <input class="newsletter-form" type="text" placeholder="Your Email Address">
+                            <button class="button newsletter-btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="hero__image">
+                        <img src="./images/ai.png" alt="Hero AI Image">
+                    </div>
+                </div>
+            </section>
+            <!-- Hero area end -->
+        </main>
+    </body>
 </html>
