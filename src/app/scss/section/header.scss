@@ -1,0 +1,21 @@
+.header {
+    &__container {
+        padding: 2.5rem 0;
+    }
+
+    &__nav {
+        gap: 3.125rem;
+    }
+
+    &__navbar ul {
+        gap: 1.875rem;
+    }
+
+    .site-logo img {
+        width: 75%;
+    }
+
+    &__btn{
+        gap: 1.875rem;
+    }
+}

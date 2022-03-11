@@ -9,7 +9,17 @@
 }
 
 body {
-    background-color: $bodyBg;
     font-family: 'Manrope', sans-serif;
+    background-color: $bodyBg;
     color: $textColor;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        color: $white;
+    }
 }
