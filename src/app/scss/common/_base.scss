@@ -58,4 +58,16 @@ body {
 
 /* Extra small devices (phones, 688px and down) */
 @media only screen and (max-width: 43rem) {
+    body {
+        font-size: 0.8125rem;
+
+        a {
+            font-size: 0.8125rem;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+        }
+    }
 }

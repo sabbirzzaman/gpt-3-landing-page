@@ -2,7 +2,6 @@
     &__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding-top: 0;
     }
 
     &__content {
@@ -74,5 +73,35 @@
 
 /* Extra small devices (phones, 688px and down) */
 @media only screen and (max-width: 43rem) {
+    .hero {
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
 
+        &__image {
+            img {
+                width: 70%;
+            }
+        }
+
+        &__newsletter {
+            justify-content: center;
+        }
+    
+        &__visitor {
+            flex-direction: column;
+        }
+
+        &__visitor {
+            img {
+                width: 30%;
+            }
+        }
+        .newsletter-form {
+            padding: 8px 10px;
+            font-size: 0.8125rem;
+        }
+    }
 }
