@@ -52,6 +52,11 @@ body {
     h4 {
         font-size: 1.5rem;
     }
+
+    h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
 /* Medium devices (landscape tablets, 689px and up) */
@@ -77,6 +82,11 @@ body {
         h4 {
             font-size: 18px;
         }
+
+        h5 {
+            font-size: 16px;
+            line-height: 20px;
+        }
     }
 }
 
@@ -101,6 +111,11 @@ body {
     
         h4 {
             font-size: 16px;
+        }
+
+        h5 {
+            font-size: 13px;
+            line-height: 18px;
         }
     }
 }
