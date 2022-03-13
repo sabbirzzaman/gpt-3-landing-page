@@ -1,0 +1,72 @@
+.about {
+    &__container {
+        background-color: $secondaryColor;
+        padding: 3.75rem;
+    }
+
+    &__what-is-gpt {
+        display: grid;
+        grid-template-columns: 1fr 70%;
+        margin-bottom: 4.375rem;
+    }
+
+    &__explore {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-bottom: 4.375rem;
+
+        span {
+            color: $coral;
+            text-align: right;
+        }
+    }
+
+    &__section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+
+        h4 {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
+
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 43rem) {
+    .about {
+        &__container {
+            padding: 30px;
+        }
+
+        &__what-is-gpt {
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+    
+        &__explore {
+            display: block;
+            margin-bottom: 20px;
+    
+            span {
+                display: none;
+            }
+        }
+    
+        &__section {
+            grid-template-columns: 1fr;
+            gap: 20px;
+    
+            h4 {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
