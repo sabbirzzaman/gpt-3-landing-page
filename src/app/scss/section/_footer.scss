@@ -1,0 +1,126 @@
+.footer {
+    background-color: $footerBg;
+    margin-top: 40px;
+    .early-access {
+        text-align: center;
+        padding: 100px 0;
+        background-color: $footerBg;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 15px 25px;
+            border: 1px solid $white;
+            background: none;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 30% 1fr 1fr 1fr;
+    }
+
+    &__identity {
+        img {
+            width: 40%;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: $white;
+        }
+    }
+
+    &__links {
+        h5 {
+            margin-bottom: 10px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__company {
+        h5 {
+            margin-bottom: 10px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__get_in_touch {
+        h5 {
+            margin-bottom: 10px;
+        }
+        p {
+            color: $white;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__copyright {
+        text-align: center;
+        color: $white;
+        padding-top: 60px;
+    }
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 43rem) {
+    .footer {
+        &__content {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 30px;
+        }
+
+        &__identity {
+            img {
+                width: 30%;
+                margin-bottom: 5px;
+            }
+    
+            p {
+                color: $white;
+            }
+        }
+    
+        &__links {
+            h5 {
+                margin-bottom: 5px;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    
+        &__company {
+            h5 {
+                margin-bottom: 5px;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    
+        &__get_in_touch {
+            h5 {
+                margin-bottom: 5px;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        &__copyright {
+            padding-top: 40px;
+        }
+    }
+}
