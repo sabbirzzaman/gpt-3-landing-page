@@ -14,6 +14,7 @@ body {
     color: $textColor;
     font-size: 1rem;
     line-height: 1.5rem;
+    font-weight: 500;
 
     img {
         width: 100%;
@@ -21,6 +22,7 @@ body {
 
     a {
         color: $white;
+        font-weight: 500;
     }
 
     h1,
@@ -29,12 +31,14 @@ body {
         background: $gradientColor;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-weight: 800;
     }
 
     h4,
     h5,
     h6 {
         color: $white;
+        font-weight: 800;
     }
 
     h1 {
