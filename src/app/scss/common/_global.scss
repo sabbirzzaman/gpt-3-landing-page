@@ -26,6 +26,15 @@
     cursor: pointer;
 }
 
+.title::before {
+    content: "";
+    background: linear-gradient(to right, #AE67FA, #F49867);
+    height: 3px;
+    width: 38px;
+    position: absolute;
+    top: 0;
+}
+
 /* Medium devices (landscape tablets, 689px and up) */
 @media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
     .container {
