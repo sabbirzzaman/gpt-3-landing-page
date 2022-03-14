@@ -1,10 +1,10 @@
 .brand {
     &__container {
-        max-width: 670px;
+        max-width: 41.875rem;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
     }
 }
 
@@ -23,7 +23,7 @@
         &__container {
             max-width: 18.75rem;
             grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
+            gap: 1.875rem;
         }
     }
 }

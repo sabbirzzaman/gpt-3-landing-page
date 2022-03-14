@@ -1,14 +1,14 @@
 .reg {
     &__container {
         background: $gradientColor;
-        padding: 40px;
-        border-radius: 10px;
+        padding: 2.5rem;
+        border-radius: .625rem;
         color: $black;
     }
 
     &__text {
         p {
-            margin-bottom: 10px;
+            margin-bottom: .625rem;
         }
 
         h4 {
@@ -17,11 +17,11 @@
     }
 
     &__button {
-        padding: 10px 25px;
+        padding: .625rem 1.5625rem;
         border: none;
         background-color: $black;
         color: $white;
-        border-radius: 50px;
+        border-radius: 3.125rem;
         cursor: pointer;
     }
 }
@@ -30,14 +30,14 @@
 @media only screen and (max-width: 43rem) {
     .reg {
         &__container {
-            padding: 20px;
+            padding: 1.25rem;
             display: block;
         }
 
         &__text {
-            margin-bottom: 10px;
+            margin-bottom: .625rem;
             p {
-                margin-bottom: 5px;
+                margin-bottom: .3125rem;
             }
 
             h4 {
@@ -46,7 +46,7 @@
         }
 
         &__button {
-            padding: 8px 20px;
+            padding: .5rem 1.25rem;
         }
     }
 }

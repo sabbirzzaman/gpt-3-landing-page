@@ -25,10 +25,10 @@
     &__section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
+        gap: 2.5rem;
 
         h4 {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
     }
 }
@@ -37,18 +37,18 @@
 @media only screen and (max-width: 43rem) {
     .about {
         &__container {
-            padding: 30px;
+            padding: 1.875rem;
         }
 
         &__what-is-gpt {
             grid-template-columns: 1fr;
-            gap: 20px;
-            margin-bottom: 40px;
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
         }
     
         &__explore {
             display: block;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
     
             span {
                 display: none;
@@ -57,10 +57,10 @@
     
         &__section {
             grid-template-columns: 1fr;
-            gap: 20px;
+            gap: 1.25rem;
     
             h4 {
-                margin-bottom: 10px;
+                margin-bottom: .625rem;
             }
         }
     }
