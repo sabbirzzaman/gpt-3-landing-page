@@ -35,6 +35,17 @@
     top: 0;
 }
 
+#success-message {
+    color: $success;
+    display: none;
+}
+
+
+#error-message {
+    color: $primaryColor;
+    display: none;
+}
+
 /* Medium devices (landscape tablets, 689px and up) */
 @media only screen and (min-width: 43.0625rem) and (max-width: 62rem) {
     .container {
