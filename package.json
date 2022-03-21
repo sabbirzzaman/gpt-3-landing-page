@@ -2,10 +2,10 @@
   "name": "gpt-3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build --no-source-maps src/index.html"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
