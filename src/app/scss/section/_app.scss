@@ -28,8 +28,15 @@
         }
 
         span {
-            color: $coral;
             margin-bottom: 1.25rem;
+        }
+        
+        span a {
+            color: $coral;
+        }
+        
+        span a:hover {
+            color: $white;
         }
     }
 }

@@ -11,12 +11,25 @@
         gap: 1.875rem;
     }
 
+    &__navbar a:hover {
+        color: $coral;
+    }
+
     .site-logo img {
         width: 75%;
     }
 
     &__btn {
         gap: 1.875rem;
+
+        a:hover {
+            color: $coral;
+        }
+
+        .button:hover {
+            background-color: $white;
+            color: $black;
+        }
     }
 
     &__bar {

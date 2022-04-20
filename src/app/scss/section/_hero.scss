@@ -35,6 +35,11 @@
         border-radius: 0 .3125rem .3125rem 0;
     }
 
+    .newsletter-btn:hover {
+        background-color: $white;
+        color: $black;
+    }
+
     &__visitor {
         color: $white;
         gap: .625rem;

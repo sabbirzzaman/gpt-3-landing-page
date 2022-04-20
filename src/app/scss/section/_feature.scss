@@ -14,6 +14,10 @@
         a {
             color: $coral;
         }
+
+        a:hover {
+            color: $white;
+        }
     }
 
     &__items {

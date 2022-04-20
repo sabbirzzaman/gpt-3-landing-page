@@ -17,11 +17,20 @@
             color: $white;
             cursor: pointer;
         }
+
+        button:hover {
+            background: $white;
+            color: $black;
+        }
     }
 
     &__content {
         display: grid;
         grid-template-columns: 30% 1fr 1fr 1fr;
+
+        a:hover {
+            color: $coral;
+        }
     }
 
     &__identity {

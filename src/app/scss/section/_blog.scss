@@ -37,6 +37,22 @@
             }
         }
     }
+
+    .blog-header {
+        h4 {
+            transition: .3s ease-in-out
+        }
+
+        h4:hover {
+            color: $coral;
+        }
+    }
+
+    .blog-footer {
+        a:hover {
+            color: $coral;
+        }
+    }
 }
 
 /* Medium devices (landscape tablets, 689px and up) */
